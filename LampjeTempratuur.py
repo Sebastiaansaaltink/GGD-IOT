@@ -1,7 +1,7 @@
 from machine import ADC # type: ignore
 import utime # type: ignore
 
-# Interne sensor (Pico chip)
+# Interne sensor (Pico chip
 interne_sensor = ADC(4)  
 prop = 3.3 / 65535  # Conversiefactor voor ADC
 
